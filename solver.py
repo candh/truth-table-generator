@@ -164,7 +164,7 @@ if __name__ == "__main__":
     prepostion = input("Enter a prepostion: ")
     prepostion = prepostion.strip()
     # removing all spaces
-    prepostion.replace(" ", "")
+    prepostion = prepostion.replace(" ", "")
 
     alpha_order = False
     if "-a" in sys.argv:
